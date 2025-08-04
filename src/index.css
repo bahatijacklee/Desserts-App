@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'RedHat';
+  src: url('../assets/fonts/RedHatText-VariableFont_wght.ttf') format('truetype');
+  font-weight: 1 999;
+}
+
+:root {
+  --red: hsl(14, 86%, 42%);
+  --green: hsl(159, 69%, 38%);
+  --rose-50: hsl(20, 50%, 98%);
+  --rose-100: hsl(13, 31%, 94%);
+  --rose-300: hsl(12, 20%, 69%);
+  --rose-400: hsl(12, 10%, 57%);
+  --rose-500: hsl(12, 5%, 40%);
+  --rose-900: hsl(14, 25%, 18%);
+
+  --font-family: 'RedHat', sans-serif;
+
+  --fs-lg: 2.5rem;
+  --fs-md: 1.25rem;
+  --fs-sm: 1rem;
+  --fs-xs: 0.875rem;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--rose-50);
+  color: var(--rose-900);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
