@@ -10,7 +10,7 @@ A visually sweet and functional web app for browsing, selecting, and ordering yo
 
 ## 📸 Preview
 
-![Desserts App Screenshot](./assets/images/image-waffle-desktop.jpg)
+![Desserts App Screenshot](./design/active-states.jpg)
 
 ---
 
