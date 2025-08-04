@@ -310,42 +310,46 @@ body {
 
 .modal {
   background-color: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 380px;
   width: 90%;
   text-align: center;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .modal__icon {
-  width: 40px;
-  margin-bottom: 1rem;
+  width: 50px;
+  margin-bottom: 0.75rem;
 }
 
 .modal__title {
   font-size: var(--fs-lg);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--rose-900);
 }
 
 .modal__text {
   color: var(--rose-400);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: var(--fs-sm);
 }
 
 .order-summary {
   background-color: var(--rose-50);
-  padding: 1.5rem;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 .order-item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--rose-100);
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
+  font-size: var(--fs-sm);
 }
 
 .order-item:last-child {
@@ -383,19 +387,36 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.order-total h3 {
+  font-size: var(--fs-sm);
+  margin: 0;
+}
+
+.order-total p {
+  font-size: var(--fs-md);
+  margin: 0;
 }
 
 .new-order-btn {
   width: 100%;
-  padding: 1rem;
+  padding: 0.75rem;
   background-color: var(--red);
   color: white;
   border: none;
   border-radius: 25px;
   cursor: pointer;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-weight: 600;
+  font-size: var(--fs-sm);
+  transition: background-color 0.2s;
+}
+
+.new-order-btn:hover {
+  background-color: hsl(14, 86%, 47%);
 }
 
 .empty-cart {
